@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        body {
+            height: 100vh;
+            width: 100vw;
+            background-color: #BDF1F6;
+            font-size: 0.85em;
+            color: rgba(66,66,66 ,1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Montserrat', sans-serif;
+        }
+        main{
+            width: 75%;
+            background-color: #F2FCFC;
+            display: flex;
+            border-radius: 15px;
+        }
+        section, form {
+            width: 50%;
+            padding: 50px 70px;
+        }
+        img{
+            width: 100px;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto;    
+        }
+        section{
+            text-align: center;
+        }
+        p {
+        line-height: 1.7;
+        }
+        .agreement{
+            font-size: 10px;
+        }
+        input[type=checkbox]{
+            margin-top: 10px;
+            height: 10px;
+        }
+        .signup-button{
+            background-color: #0245A3;
+            color: #F2FCFC;
+            padding: 10px 15px;
+            border-radius: 25px;
+            margin-top: 20px;
+            font-size: 0.6em;
+        }
+        input[type=email]{
+            background-color: #F2FCFC;
+            padding:10px 5px;
+            margin-bottom : 10px;
+            border-top-style:hidden;
+            border-right-style: hidden;
+            border-left-style: hidden;
+        }
+        input[type=password]{
+            background-color: #F2FCFC;
+            padding:10px 5px;
+            margin-bottom : 20px;
+            border-top-style:hidden;
+            border-right-style: hidden;
+            border-left-style: hidden;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <img src="http://i.imgur.com/10YZZqN.jpg" />
+            <h3> Ohans Emmanuel </h3>
+            <p>
+                I have worked with Startup X’ product, and I think it is fabulous. 
+                I highly recommend the use of this product. It is simply a life saver.
+            </p>
+        </section>
+        <form>
+            <h3> SIGN UP </h3>
+            <div class="inputvar">
+                <input type="email" name="email" placeholder="Email Address" size="50">
+                <input type="password" name="password" placeholder="Password" size="50">
+            </div>
+            <div class="agreement">
+                <input type="checkbox" name="agreement">
+                <span>I Agree with the terms of service</span>
+            </div>      
+            <button type="submit" class="signup-button"> SIGNUP </button>
+        </form>
+    </main>
+</body>
+</html>
